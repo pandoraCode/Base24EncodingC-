@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+  <Reference Include="Base64.dll">
+    <HintPath>/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/Base64.dll</HintPath>
+    <SpecificVersion>True</SpecificVersion> 
+  </Reference>
+</ItemGroup>
+
+
+</Project>

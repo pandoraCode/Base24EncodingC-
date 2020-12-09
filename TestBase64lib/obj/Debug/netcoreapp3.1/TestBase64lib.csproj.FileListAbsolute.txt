@@ -1,0 +1,13 @@
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib.deps.json
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib.runtimeconfig.json
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib.runtimeconfig.dev.json
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib.dll
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/TestBase64lib.pdb
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/bin/Debug/netcoreapp3.1/Base64.dll
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.csprojAssemblyReference.cache
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.AssemblyInfoInputs.cache
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.AssemblyInfo.cs
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.csproj.CopyComplete
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.dll
+/home/pandora/Desktop/projects/dialogInsight/TestBase64lib/obj/Debug/netcoreapp3.1/TestBase64lib.pdb
