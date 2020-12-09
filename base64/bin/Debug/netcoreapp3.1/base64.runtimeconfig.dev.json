@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/pandora/.dotnet/store/|arch|/|tfm|",
+      "/home/pandora/.nuget/packages"
+    ]
+  }
+}
