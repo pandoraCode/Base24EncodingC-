@@ -9,7 +9,7 @@ Custom base64Encoding in C#.
  
  TestBase64lib/ : A c# console application to desmonstrate the use of the created lib
 
-## Usage
+## Usage in custom project
 Download Base64.dll from Base64/bin/Debug/netstandard2.0 and place it in the root folder of you project.
 
 Add the following to your .csproj file
