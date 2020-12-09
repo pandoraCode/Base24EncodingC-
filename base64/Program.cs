@@ -1,6 +1,7 @@
-﻿using System;
+﻿
+using System;
 using System.Diagnostics;
-using System.Threading; 
+using System.Text; 
 namespace base64
 {
 
@@ -27,7 +28,8 @@ namespace base64
            for (int i = 0; i < length; i++)
                 {
                        
-                         value = value + ToBinary(source[i]) ;
+                         //value = value + ToBinary(source[i]); 
+                           value = value + Convert.ToString(source[i], 2).PadLeft(8,'0'); ;
                           if((i+1) % 3 == 0){
                                 for(int j=0;j<value.Length;j++){
                                   
@@ -70,27 +72,18 @@ namespace base64
 
         }
 
-        public static string ToBinary(int nbr){
-            string binVal = string.Empty;
-                while(nbr > 0){
-                    int rem = nbr % 2;
-                    binVal = Convert.ToString(rem) + binVal;
-                    nbr /= 2;
-                }
-                if(binVal.Length <8) {
-                    binVal = "0"+binVal;
-                }
-            return binVal;
-        }
 
-             static void Main(string[] args)
+                  static void Main(string[] args)
         {
 
             Stopwatch sw = new Stopwatch();
             sw.Start();  
 
+
            byte[] source = { 0x6A, 0x77, 0xC4,0x6A, 0x77, 0xC4,0x6A, 0x77, 0xC4};
-           //Console.WriteLine(Encode(source));
+          //Console.WriteLine(Encode(source));
+          //Console.WriteLine(convert(source[0]));
+             // Console.WriteLine( Encoding.Default.GetString(source));
            Console.WriteLine(Convert.ToBase64String(source));
             sw.Stop();
             Console.WriteLine("Time elapsed: {0}", sw.Elapsed);
